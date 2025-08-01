@@ -1,0 +1,120 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:ghostwhite;
+}
+.Menu{
+    background-color: rgb(76, 76, 222);
+    color :aliceblue ;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.Menup
+{
+    margin: 0;
+}
+.Image{
+    position: relative;
+}
+
+.Image img{
+    width: 100%;
+    height: auto;
+}
+
+.Hover-text{
+    position: absolute;
+    top:70%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 15px;
+}
+.Image:hover .Hover-text{
+    opacity: 1;
+}
+
+.MyPhoto{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.MyPhoto img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid ;
+}
+
+.text{
+    text-align: center;
+    font-size: 24px;
+    color:cornflowerblue;
+}
+
+hr{
+    width: 25%;
+    height: 3px;
+    background-color: cornflowerblue;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    font-size: 19.5px;
+    margin: 10px;
+    padding: 30px 10px;
+    color: rgb(62, 62, 170);
+}
+
+.project img {
+    width: 500px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 0;
+    padding: 10px 50px;
+}
+
+
+.Photos-section {
+    text-align: center;
+    margin: 40px;
+}
+
+.Photos-section h2 {
+    margin-bottom: 20px;
+}
+
+.Photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 28px;
+}
+
+
+
+
